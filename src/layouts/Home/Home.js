@@ -7,9 +7,9 @@ import gamestackTexture from 'assets/gamestack-login.jpg';
 import sliceTextureLarge from 'assets/slice-app-large.jpg';
 import sliceTexturePlaceholder from 'assets/slice-app-placeholder.jpg';
 import sliceTexture from 'assets/slice-app.jpg';
-import sprTextureLarge from 'assets/spr-lesson-builder-dark-large.jpg';
-import sprTexturePlaceholder from 'assets/spr-lesson-builder-dark-placeholder.jpg';
-import sprTexture from 'assets/spr-lesson-builder-dark.jpg';
+import sprTextureLarge from 'assets/Untitleds.png';
+import sprTexturePlaceholder from 'assets/Untitleds.png';
+import sprTexture from 'assets/Untitleds.png';
 import { Footer } from 'components/Footer';
 import { Meta } from 'components/Meta';
 import { Intro } from 'layouts/Home/Intro';
@@ -82,10 +82,10 @@ export const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="Working for the future of develoment"
-        description="Designing a platform to help educators build better online courseware"
+        title="NFT Art Generator"
+        description="Toolkit to accelerate design and development of procedurally generated NFT projects"
         buttonText="View project"
-        buttonLink="/projects/smart-sparrow"
+        buttonLink="/projects/nftart"
         model={{
           type: 'laptop',
           alt: 'Smart Sparrow lesson builder',
@@ -103,10 +103,10 @@ export const Home = () => {
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
-        title="Video game progress tracking"
-        description="Design and development for a video game tracking app built in React Native"
+        title="The Metaverse Ecosystem of NFT"
+        description="Genesis collection of 10,000 3D, programmatically-generated rabbit avatars, each with their own unique features and stories to tell."
         buttonText="View website"
-        buttonLink="https://gamestack.hamishw.com"
+        buttonLink="https://www.fluf.world"
         model={{
           type: 'phone',
           alt: 'App login screen',
