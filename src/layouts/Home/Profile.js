@@ -21,16 +21,18 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hi there" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I’m Hamish, currently I live in Sydney working as a senior product designer at{' '}
-      <Link href="https://www.qwilr.com">Qwilr</Link>. My projects include UX design, UI
-      animations, and icon illustration. Being comfortable with code allows me to rapidly
-      prototype and validate experiences. If you’re interested in the tools and software I
-      use check out my <Link href="/uses">uses page</Link>.
+      Self-motivated and detail-oriented Senior React Developer with over 5 years of
+      experience in building and maintaining sophisticated web applications using React.js
+      and other cutting-edge technologies. Adept at translating designs and wireframes
+      into high-quality, scalable, and reusable components, while ensuring optimal
+      performance across various devices and browsers.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      In my spare time I like to practice Brazilian Jiu Jitsu, play video games, and{' '}
-      <Link href="/projects/volkihar-knight">make mods</Link>. I’m always down for hearing
-      about new projects, so feel free to drop me a line.
+      Skilled in collaborating with cross-functional teams and mentoring junior developers
+      to achieve project goals. Passionate about staying current with industry trends and
+      continuously enhancing my technical expertise to deliver innovative solutions that
+      exceed user expectations. Seeking to leverage my extensive React knowledge and
+      experience to to the growth and success of a dynamic organization.
     </Text>
   </Fragment>
 );
