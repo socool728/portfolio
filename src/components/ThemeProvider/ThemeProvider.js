@@ -14,7 +14,7 @@ import { useTheme } from './useTheme';
 export const ThemeContext = createContext({});
 
 export const ThemeProvider = ({
-  themeId = 'dark',
+  themeId = 'light',
   theme: themeOverrides,
   children,
   className,

@@ -2,9 +2,9 @@
   "name": "portfolio",
   "version": "1.0.0",
   "homepage": "",
-  "description": "Portfolio site for Seto Takumi",
+  "description": "Portfolio site for Carlos Jair",
   "repository": "https://github.com/GJTECH-SPEC/portfolio.git",
-  "author": "Seto Takumi <devope08@gmail.com>",
+  "author": "Carlos Jair <devope08@gmail.com>",
   "devDependencies": {
     "@mapbox/rehype-prism": "^0.8.0",
     "@storybook/addon-a11y": "^6.5.10",

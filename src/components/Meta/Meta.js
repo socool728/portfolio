@@ -1,7 +1,7 @@
 import Head from 'next/head';
 
 const siteUrl = process.env.NEXT_PUBLIC_WEBSITE_URL;
-const name = 'Seto Takumi';
+const name = 'Carlos Jair';
 const twitterHandle = '@devope08';
 const defaultOgImage = `${siteUrl}/social-image.png`;
 

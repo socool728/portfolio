@@ -10,7 +10,6 @@ import { useEffect, useRef, useState } from 'react';
 import { cssProps, media, msToNum, numToMs } from 'utils/style';
 import { NavToggle } from './NavToggle';
 import styles from './Navbar.module.css';
-import { ThemeToggle } from './ThemeToggle';
 import { navLinks, socialLinks } from './navData';
 
 export const Navbar = () => {
@@ -145,7 +144,7 @@ export const Navbar = () => {
         <a
           data-navbar-item
           className={styles.logo}
-          aria-label="Seto Takumi, Designer"
+          aria-label="Carlos Jair, Designer"
           onClick={handleMobileNavClick}
         >
           <Monogram highlight />
@@ -190,11 +189,9 @@ export const Navbar = () => {
               </RouterLink>
             ))}
             <NavbarIcons />
-            <ThemeToggle isMobile />
           </nav>
         )}
       </Transition>
-      {!isMobile && <ThemeToggle data-navbar-item />}
     </header>
   );
 };

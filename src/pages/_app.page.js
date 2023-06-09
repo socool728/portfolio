@@ -24,7 +24,7 @@ __  __  __
 `;
 
 const App = ({ Component, pageProps }) => {
-  const [storedTheme] = useLocalStorage('theme', 'dark');
+  const [storedTheme] = useLocalStorage('theme', 'light');
   const [state, dispatch] = useReducer(reducer, initialState);
   const { route, asPath } = useRouter();
   const canonicalRoute = route === '/' ? '' : `${asPath}`;
@@ -35,7 +35,7 @@ const App = ({ Component, pageProps }) => {
   }, []);
 
   useEffect(() => {
-    dispatch({ type: 'setTheme', value: storedTheme || 'dark' });
+    dispatch({ type: 'setTheme', value: storedTheme || 'light' });
   }, [storedTheme]);
 
   return (

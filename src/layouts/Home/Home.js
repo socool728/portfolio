@@ -68,8 +68,8 @@ export const Home = () => {
   return (
     <div className={styles.home}>
       <Meta
-        title="Fullstack Developer"
-        description="portfolio of Seto Takumi — a product  working on web & apps with a focus on motion, experience, and accessibility."
+        title="Full Stack Developer"
+        description="portfolio of Carlos Jair — a product  working on web & apps with a focus on motion, experience, and accessibility."
       />
       <Intro
         id="intro"
@@ -78,7 +78,7 @@ export const Home = () => {
         scrollIndicatorHidden={scrollIndicatorHidden}
       />
       <ProjectSummary
-        id="project-1"
+        id="project-2"
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
@@ -98,7 +98,67 @@ export const Home = () => {
         }}
       />
       <ProjectSummary
-        id="project-2"
+        id="project-3"
+        sectionRef={projectOne}
+        visible={visibleSections.includes(projectOne.current)}
+        index={2}
+        title="NFT Art Generator"
+        description="Toolkit to accelerate design and development of procedurally generated NFT projects"
+        buttonText="View project"
+        buttonLink="/projects/nftart"
+        model={{
+          type: 'laptop',
+          alt: 'Smart Sparrow lesson builder',
+          textures: [
+            {
+              srcSet: [sprTexture, sprTextureLarge],
+              placeholder: sprTexturePlaceholder,
+            },
+          ],
+        }}
+      />
+      <ProjectSummary
+        id="project-4"
+        sectionRef={projectOne}
+        visible={visibleSections.includes(projectOne.current)}
+        index={1}
+        title="NFT Art Generator"
+        description="Toolkit to accelerate design and development of procedurally generated NFT projects"
+        buttonText="View project"
+        buttonLink="/projects/nftart"
+        model={{
+          type: 'laptop',
+          alt: 'Smart Sparrow lesson builder',
+          textures: [
+            {
+              srcSet: [sprTexture, sprTextureLarge],
+              placeholder: sprTexturePlaceholder,
+            },
+          ],
+        }}
+      />
+      <ProjectSummary
+        id="project-5"
+        sectionRef={projectOne}
+        visible={visibleSections.includes(projectOne.current)}
+        index={1}
+        title="NFT Art Generator"
+        description="Toolkit to accelerate design and development of procedurally generated NFT projects"
+        buttonText="View project"
+        buttonLink="/projects/nftart"
+        model={{
+          type: 'laptop',
+          alt: 'Smart Sparrow lesson builder',
+          textures: [
+            {
+              srcSet: [sprTexture, sprTextureLarge],
+              placeholder: sprTexturePlaceholder,
+            },
+          ],
+        }}
+      />
+      <ProjectSummary
+        id="project-6"
         alternate
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
@@ -123,7 +183,7 @@ export const Home = () => {
         }}
       />
       <ProjectSummary
-        id="project-3"
+        id="project-7"
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
         index={3}
