@@ -149,10 +149,10 @@ export const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={4}
-        title="NFT Art Generator"
+        title="Local Solicitors"
         description="Toolkit to accelerate design and development of procedurally generated NFT projects"
         buttonText="View project"
-        buttonLink="/projects/nftart"
+        buttonLink="/projects/localsolicitors"
         model={{
           type: 'laptop',
           alt: 'Smart Sparrow lesson builder',
@@ -168,7 +168,7 @@ export const Home = () => {
         id="project-5"
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
-        index={1}
+        index={5}
         title="NFT Art Generator"
         description="Toolkit to accelerate design and development of procedurally generated NFT projects"
         buttonText="View project"
@@ -186,10 +186,10 @@ export const Home = () => {
       />
 
       <ProjectSummary
-        id="project-7"
+        id="project-6"
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
-        index={3}
+        index={6}
         title="Biomedical image collaboration"
         description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
         buttonText="View project"

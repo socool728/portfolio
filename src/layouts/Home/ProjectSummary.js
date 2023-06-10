@@ -1,4 +1,4 @@
-import projectKatakana from 'assets/katakana-project.svg?url';
+import projectKatakana from 'assets/carlos.svg';
 import { Button } from 'components/Button';
 import { Divider } from 'components/Divider';
 import { Heading } from 'components/Heading';
@@ -39,19 +39,30 @@ export const ProjectSummary = ({
   const laptopSizes = `(max-width: ${media.tablet}px) 80vw, 40vw`;
 
   const renderKatakana = (device, visible) => (
-    <svg
+    <img
+      src="/carlos.svg"
       aria-hidden="true"
-      width="750"
-      height="137"
-      viewBox="0 0 750 137"
+      width="1000"
+      height="500"
       data-visible={visible}
       data-light={theme.themeId === 'light'}
       style={cssProps({ opacity: svgOpacity })}
       className={styles.svg}
       data-device={device}
-    >
-      <use href={`${projectKatakana}#katakana-project`} />
-    </svg>
+    />
+    // <svg
+    //   aria-hidden="true"
+    //   width="750"
+    //   height="137"
+    //   viewBox="0 0 750 137"
+    //   data-visible={visible}
+    //   data-light={theme.themeId === 'light'}
+    //   style={cssProps({ opacity: svgOpacity })}
+    //   className={styles.svg}
+    //   data-device={device}
+    // >
+    //   <use href={`${projectKatakana}#katakana-project`} />
+    // </svg>
   );
 
   const renderDetails = visible => (
