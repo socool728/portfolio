@@ -18,6 +18,7 @@ import { Profile } from 'layouts/Home/Profile';
 import { ProjectSummary } from 'layouts/Home/ProjectSummary';
 import { useEffect, useRef, useState } from 'react';
 import styles from './Home.module.css';
+import devices from 'assets/projects/devices.jpg';
 
 const disciplines = ['ReactJS', 'Angular', 'NodeJS', 'Blockchain'];
 
@@ -99,21 +100,46 @@ export const Home = () => {
         }}
       />
       <ProjectSummary
-        id="project-3"
+        id="project-2"
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={2}
-        title="NFT Art Generator"
-        description="Toolkit to accelerate design and development of procedurally generated NFT projects"
+        title="ColiMinder"
+        description="An IoT solution for water quality monitoring and reflecting probing results in real-time"
         buttonText="View project"
-        buttonLink="/projects/nftart"
+        buttonLink="/projects/coliminder"
         model={{
           type: 'laptop',
           alt: 'Smart Sparrow lesson builder',
           textures: [
             {
-              srcSet: [sprTexture, sprTextureLarge],
-              placeholder: sprTexturePlaceholder,
+              srcSet: [devices, devices],
+              placeholder: devices,
+            },
+          ],
+        }}
+      />
+      <ProjectSummary
+        id="project-3"
+        alternate
+        sectionRef={projectTwo}
+        visible={visibleSections.includes(projectTwo.current)}
+        index={3}
+        title="The Metaverse Ecosystem of NFT"
+        description="Genesis collection of 10,000 3D, programmatically-generated rabbit avatars, each with their own unique features and stories to tell."
+        buttonText="View website"
+        buttonLink="https://www.fluf.world"
+        model={{
+          type: 'phone',
+          alt: 'App login screen',
+          textures: [
+            {
+              srcSet: [gamestackTexture, gamestackTextureLarge],
+              placeholder: gamestackTexturePlaceholder,
+            },
+            {
+              srcSet: [gamestackTexture2, gamestackTexture2Large],
+              placeholder: gamestackTexture2Placeholder,
             },
           ],
         }}
@@ -122,7 +148,7 @@ export const Home = () => {
         id="project-4"
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
-        index={1}
+        index={4}
         title="NFT Art Generator"
         description="Toolkit to accelerate design and development of procedurally generated NFT projects"
         buttonText="View project"
@@ -158,31 +184,7 @@ export const Home = () => {
           ],
         }}
       />
-      <ProjectSummary
-        id="project-6"
-        alternate
-        sectionRef={projectTwo}
-        visible={visibleSections.includes(projectTwo.current)}
-        index={2}
-        title="The Metaverse Ecosystem of NFT"
-        description="Genesis collection of 10,000 3D, programmatically-generated rabbit avatars, each with their own unique features and stories to tell."
-        buttonText="View website"
-        buttonLink="https://www.fluf.world"
-        model={{
-          type: 'phone',
-          alt: 'App login screen',
-          textures: [
-            {
-              srcSet: [gamestackTexture, gamestackTextureLarge],
-              placeholder: gamestackTexturePlaceholder,
-            },
-            {
-              srcSet: [gamestackTexture2, gamestackTexture2Large],
-              placeholder: gamestackTexture2Placeholder,
-            },
-          ],
-        }}
-      />
+
       <ProjectSummary
         id="project-7"
         sectionRef={projectThree}
