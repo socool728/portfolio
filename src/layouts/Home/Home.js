@@ -10,6 +10,7 @@ import sliceTexture from 'assets/slice-app.jpg';
 import sprTextureLarge from 'assets/Untitleds.png';
 import sprTexturePlaceholder from 'assets/Untitleds.png';
 import sprTexture from 'assets/Untitleds.png';
+import ymcaPicture from 'assets/YMCA.jpg';
 import { Footer } from 'components/Footer';
 import { Meta } from 'components/Meta';
 import { Intro } from 'layouts/Home/Intro';
@@ -78,20 +79,20 @@ export const Home = () => {
         scrollIndicatorHidden={scrollIndicatorHidden}
       />
       <ProjectSummary
-        id="project-2"
+        id="project-1"
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="NFT Art Generator"
-        description="Toolkit to accelerate design and development of procedurally generated NFT projects"
+        title="YMCA OF PIERCE & KITSAP COUNTIES"
+        description="Website migration with an extensive function overhaul to improve the user experience"
         buttonText="View project"
-        buttonLink="/projects/nftart"
+        buttonLink="/projects/ymca"
         model={{
           type: 'laptop',
           alt: 'Smart Sparrow lesson builder',
           textures: [
             {
-              srcSet: [sprTexture, sprTextureLarge],
+              srcSet: [ymcaPicture, ymcaPicture],
               placeholder: sprTexturePlaceholder,
             },
           ],
