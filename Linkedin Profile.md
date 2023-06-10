@@ -194,3 +194,7 @@ http://www.pacsharmony.com/
 
 https://blaize.tech/clients/nft-browser-and-marketplace-development-for-rad/
 https://app.rad.live/marketplace
+
+https://www.groovyweb.co/work/Local-Solicitors
+https://www.localsolicitors.com/
+https://www.goodfirms.co/company/groovy-web#reviews
