@@ -20,7 +20,7 @@ import { useEffect, useRef, useState } from 'react';
 import styles from './Home.module.css';
 import devices from 'assets/projects/devices.jpg';
 
-const disciplines = ['ReactJS', 'Angular', 'NodeJS', 'Blockchain'];
+const disciplines = ['ReactJS', 'Angular', 'NodeJS', 'Spring', 'Blockchain'];
 
 export const Home = () => {
   const [visibleSections, setVisibleSections] = useState([]);
