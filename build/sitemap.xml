@@ -1,42 +1,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://hamishw.com/</loc>
+    <loc>https://carlos.netlify.app//</loc>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://hamishw.com/articles/</loc>
+    <loc>https://carlos.netlify.app//articles/</loc>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://hamishw.com/contact/</loc>
+    <loc>https://carlos.netlify.app//contact/</loc>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://hamishw.com/uses/</loc>
+    <loc>https://carlos.netlify.app//uses/</loc>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://hamishw.com/projects/nftart/</loc>
+    <loc>https://carlos.netlify.app//projects/coliminder/</loc>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://hamishw.com/projects/slice/</loc>
+    <loc>https://carlos.netlify.app//projects/localsolicitors/</loc>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://hamishw.com/projects/smart-sparrow/</loc>
+    <loc>https://carlos.netlify.app//projects/nftart/</loc>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://hamishw.com/projects/volkihar-knight/</loc>
+    <loc>https://carlos.netlify.app//projects/slice/</loc>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://hamishw.com/articles/hello-world</loc>
+    <loc>https://carlos.netlify.app//projects/volkihar-knight/</loc>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://hamishw.com/articles/modern-styling-in-react</loc>
+    <loc>https://carlos.netlify.app//projects/ymca/</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://carlos.netlify.app//articles/hello-world</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://carlos.netlify.app//articles/modern-styling-in-react</loc>
     <changefreq>monthly</changefreq>
   </url>
 </urlset>

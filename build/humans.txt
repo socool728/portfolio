@@ -1,27 +1,23 @@
-__  __  __
-\ \ \ \ \/
- \ \/\ \
-  \/  \/
 
 The humans.txt file explains the team, technology,
 and graphic assets behind this site humanstxt.org.
 
 _______________________________________________________________________________
 
-DESIGNER | デザイナー
+Porgramer
 
-Seto Takumi
-Hand crafted design & web development
+Carlos Jair
+web development
 
 Design tools:
 Figma
 Photoshop
 Blender
 
-https://t.me/devope08
+https://t.me/carlosjair02
 _______________________________________________________________________________
 
-TECHNOLOGY | テクノロジー
+TECHNOLOGY 
 
 React
 Next.js
@@ -30,7 +26,7 @@ Framer Motion
 
 _______________________________________________________________________________
 
-FONTS | フォント
+FONTS
 
 Gotham
 Hiragino Kaku Gothic
