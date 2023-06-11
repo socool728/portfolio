@@ -20,7 +20,12 @@ export const navLinks = [
 export const socialLinks = [
   {
     label: 'Github',
-    url: 'https://github.com/GJTECH-SPEC',
+    url: 'https://github.com/FantasyDevop',
     icon: 'github',
+  },
+  {
+    label: 'Linkedin',
+    url: 'https://www.linkedin.com/in/carlos-jair-308532278/',
+    icon: 'linkedin',
   },
 ];

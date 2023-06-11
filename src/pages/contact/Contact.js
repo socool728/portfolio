@@ -14,7 +14,6 @@ import { useFormInput } from 'hooks';
 import { useRef, useState } from 'react';
 import { cssProps, msToNum, numToMs } from 'utils/style';
 import styles from './Contact.module.css';
-import Link from 'next/link';
 
 export const Contact = () => {
   const errorRef = useRef();
@@ -28,7 +27,6 @@ export const Contact = () => {
   const onSubmit = async event => {
     event.preventDefault();
     setStatusError('');
-
     if (sending) return;
 
     try {
@@ -128,8 +126,8 @@ export const Contact = () => {
               )}
             </Transition>
             <Button
-              href={'mailto:jaircarlos3302@gmail.com'}
               className={styles.button}
+              href={`mailto:jaircarlos3302@gmail.com?subject=${email.value}&body=${message.value}`}
               data-status={status}
               data-sending={sending}
               style={getDelay(tokens.base.durationM, initDelay)}
