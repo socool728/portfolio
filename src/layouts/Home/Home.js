@@ -8,9 +8,10 @@ import sliceTextureLarge from 'assets/slice-app-large.jpg';
 import sliceTexturePlaceholder from 'assets/slice-app-placeholder.jpg';
 import sliceTexture from 'assets/slice-app.jpg';
 import sprTextureLarge from 'assets/Untitleds.png';
-import sprTexturePlaceholder from 'assets/Untitleds.png';
+import sprTexturePlaceholder from 'assets/nft-placeholder.jpg';
 import sprTexture from 'assets/Untitleds.png';
 import ymcaPicture from 'assets/YMCA.jpg';
+import ymcaPlcaeholder from 'assets/ymca-placeholder.jpg';
 import { Footer } from 'components/Footer';
 import { Meta } from 'components/Meta';
 import { Intro } from 'layouts/Home/Intro';
@@ -19,6 +20,9 @@ import { ProjectSummary } from 'layouts/Home/ProjectSummary';
 import { useEffect, useRef, useState } from 'react';
 import styles from './Home.module.css';
 import devices from 'assets/projects/devices.jpg';
+import devicePlaceholder from 'assets/projects/devices-placeholder.jpg';
+import localsolicitors from 'assets/projects/localsolicitors.jpg';
+import localsolicitorsPlaceholder from 'assets/projects/localsolicitors-placeholder.jpg';
 
 const disciplines = ['ReactJS', 'Angular', 'NodeJS', 'Spring', 'Blockchain'];
 
@@ -71,7 +75,7 @@ export const Home = () => {
     <div className={styles.home}>
       <Meta
         title="Full Stack Developer"
-        description="portfolio of Carlos Jair — a product  working on web & apps with a focus on motion, experience, and accessibility."
+        description="portfolio of Carlos Jair — a product working on web & apps with a focus on motion, experience, and accessibility."
       />
       <Intro
         id="intro"
@@ -94,7 +98,7 @@ export const Home = () => {
           textures: [
             {
               srcSet: [ymcaPicture, ymcaPicture],
-              placeholder: sprTexturePlaceholder,
+              placeholder: ymcaPlcaeholder,
             },
           ],
         }}
@@ -114,7 +118,7 @@ export const Home = () => {
           textures: [
             {
               srcSet: [devices, devices],
-              placeholder: devices,
+              placeholder: devicePlaceholder,
             },
           ],
         }}
@@ -158,8 +162,8 @@ export const Home = () => {
           alt: 'Smart Sparrow lesson builder',
           textures: [
             {
-              srcSet: [sprTexture, sprTextureLarge],
-              placeholder: sprTexturePlaceholder,
+              srcSet: [localsolicitors, localsolicitors],
+              placeholder: localsolicitorsPlaceholder,
             },
           ],
         }}

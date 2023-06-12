@@ -19,6 +19,11 @@ export default function Document() {
         <link rel="preload" href={GothamBook} as="font" crossOrigin="true" />
         <style dangerouslySetInnerHTML={{ __html: fontStyles }} />
         <style dangerouslySetInnerHTML={{ __html: tokenStyles }} />
+
+        <meta property="og:title" content="Carlos Jair || Full Stack Developer" />
+        <meta property="og:type" content="Full Stack Developer" />
+        <meta property="og:url" content="https://carlosjair.netlify.app/" />
+        <meta property="og:image" content="https://carlosjair.netlify.app/site-preview" />
       </Head>
       <body data-theme="dark" tabIndex={-1}>
         <script
