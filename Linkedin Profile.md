@@ -182,19 +182,33 @@ Earlier, the website had over 3,200 pages, and it was quite difficult to manage.
 - Customized theme implementation below maximum budget
 - Made mobile-friendly website
 
-https://gloriumtech.com/case/development-of-ui-ux-design-and-interface-for-the-iot-platform/
-https://www.ophardt.com/
+[https://gloriumtech.com/case/development-of-ui-ux-design-and-interface-for-the-iot-platform/]s(https://gloriumtech.com/case/development-of-ui-ux-design-and-interface-for-the-iot-platform/)
+[https://www.ophardt.com/]s(https://www.ophardt.com/)
 
-https://clutch.co/profile/limestone-digital#portfolio
-https://limestonedigital.com/cases/coliminder/
-https://www.coliminder.com/
+[https://clutch.co/profile/limestone-digital#portfolio]s(https://clutch.co/profile/limestone-digital#portfolio)
+[https://limestonedigital.com/cases/coliminder/]s(https://limestonedigital.com/cases/coliminder/)
+[https://www.coliminder.com/]s(https://www.coliminder.com/)
 
-https://gloriumtech.com/case/development-of-a-tool-for-managing-radiology-workflow/#
-http://www.pacsharmony.com/
+[https://gloriumtech.com/case/development-of-a-tool-for-managing-radiology-workflow/#]s(https://gloriumtech.com/case/development-of-a-tool-for-managing-radiology-workflow/#)
+(http://www.pacsharmony.com/)
 
-https://blaize.tech/clients/nft-browser-and-marketplace-development-for-rad/
-https://app.rad.live/marketplace
+[https://blaize.tech/clients/nft-browser-and-marketplace-development-for-rad/]s(https://blaize.tech/clients/nft-browser-and-marketplace-development-for-rad/)
+[https://app.rad.live/marketplace]s(https://app.rad.live/marketplace)
 
-https://www.groovyweb.co/work/Local-Solicitors
-https://www.localsolicitors.com/
-https://www.goodfirms.co/company/groovy-web#reviews
+[https://www.groovyweb.co/work/Local-Solicitors]s(https://www.groovyweb.co/work/Local-Solicitors)
+[https://www.localsolicitors.com/]s(https://www.localsolicitors.com/)
+[https://www.goodfirms.co/company/groovy-web#reviews]s(https://www.goodfirms.co/company/groovy-web#reviews)
+
+## tell me about your self.
+
+Hello, my name is Carlos Jair, and I am a highly motivated software developer with a Bachelor's degree in Computer Science from Anahuac University. I have extensive experience working with various technologies such as Java, JavaScript Frameworks, and Blockchain development. Throughout my career, I have developed a strong foundation in web development, application development, and designing industry-specific solutions using Blockchain technology. I am skilled in creating responsive and dynamic web applications using HTML, CSS, JavaScript, and various front-end frameworks. I am also proficient in developing and deploying smart contracts on Ethereum and Solana blockchain platforms. I am a quick learner and a strong team player, always eager to take on new challenges and contribute to the success of the projects I work on.
+
+## Why do you want to work for our company?
+
+- I feel that with my current skill sets and my experience in previous positions, the job requirements this role presented are a perfect match for me. I could visualize myself in that role as it aligned with my career aspirations, skills, and expertise.
+
+- Besides, I have researched your company and found that it has impressive and promising projections which made me excited to be a part of the amazing future. I would take pride in working under the great leadership of this company and I found this place to be a perfect fit for utilizing my expertise along with the promising aspect of personal growth.
+
+## What are your greatest strength and weakness?
+
+I think one of my greatest strengths is that I am a great team player. I am also a self-motivated and quick learning individual. Whatever task that I set to do, I always give my best and complete it diligently well in advance. My weakness would be that I am learning to master people skills while meeting new individuals. I get nervous while talking to new people. I have been working on this for quite a long time and I can say with utmost confidence that I have come a long way.
