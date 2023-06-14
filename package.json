@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "homepage": "",
   "description": "Portfolio site for Carlos Jair",
-  "repository": "https://github.com/FantasyDevop/portfolio.git",
+  "repository": "https://github.com/mEagledev/portfolio.git",
   "author": "Carlos Jair <devope08@gmail.com>",
   "devDependencies": {
     "@mapbox/rehype-prism": "^0.8.0",
