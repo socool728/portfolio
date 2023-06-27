@@ -69,7 +69,7 @@ export function Intro({ id, sectionRef, disciplines, scrollIndicatorHidden, ...r
               </h1>
               <Heading level={0} as="h2" className={styles.title}>
                 <VisuallyHidden className={styles.label}>
-                  {`${introLabel} + Developer`}
+                  {`${introLabel} + Expert`}
                 </VisuallyHidden>
                 <div className={styles.row} component="span">
                   <AnimatePresence>
@@ -102,7 +102,7 @@ export function Intro({ id, sectionRef, disciplines, scrollIndicatorHidden, ...r
                     data-status={status}
                     style={cssProps({ delay: tokens.base.durationXS })}
                   >
-                    Developer
+                    Expert
                   </span>
                 </span>
               </Heading>

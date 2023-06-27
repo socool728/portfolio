@@ -25,7 +25,7 @@ export const socialLinks = [
   },
   {
     label: 'Linkedin',
-    url: 'https://www.linkedin.com/in/carlos-jair-308532278/',
+    url: 'https://www.linkedin.com/in/carlos-jair/',
     icon: 'linkedin',
   },
 ];
